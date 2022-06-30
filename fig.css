@@ -16,6 +16,7 @@
 
 *{
     font-family: Poppins;
+    outline: 1px solid
     
    
 }
@@ -876,7 +877,7 @@ footer .col-8{
         left: 379px;
     }
     .quote.one {
-        left: 0px;
+        left: -8px;
     }
 
     .inner-div{
@@ -895,7 +896,7 @@ footer .col-8{
 @media(max-width:581.5px){
     footer .col-2 {
         flex: 0 0 auto;
-        width: 32.69%;
+        width: 33.19%;
     }
 }
 
