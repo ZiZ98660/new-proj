@@ -671,6 +671,69 @@ footer .col-8{
 
 
 
+
+
+
+
+
+/* @media(max-width:1680px){
+    .svg2 {
+        position: relative;
+        left: 1095px;
+        top: 743px;
+    }
+
+    .quote.two {
+        left: 1076px;
+    }
+} */
+
+
+/* @media(max-width: 1399px){
+    .quote.two {
+        left: 894px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 915px;
+        top: 743px;
+    }
+} */
+
+/* 
+@media(max-width: 1280px){
+    .quote.two {
+        left: 1050px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 1046px;
+        top: 743px;
+    }
+
+    
+} */
+
+/* @media(max-width: 1280px){
+    .quote.two {
+        left: 896px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 915px;
+        top: 743px;
+} */
+
+
+
+
+
+
+
+
 @media(max-width:1199.5px){
     .first-sec-img{
         object-fit: contain;
@@ -792,6 +855,40 @@ footer .col-8{
 
 
 @media (max-width: 767.5px){
+    div.first-sect>div>p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        width: 459px;
+        color: #2E3E5C;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    
+    .about-head {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 36px;
+        margin-top: 18px;
+        text-align: center;
+        line-height: 4px;
+        color: #1E1F4B;
+    }
+
+    .inner-div p.about {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #2E3E5C;
+        opacity: 0.8;
+    }
+
+
     div.logo-flex>img.one {
         width: 74px;
     }
@@ -837,11 +934,11 @@ footer .col-8{
         width: 50% !important;
     }
 
-    div.about-img>div>a>img.one {
+    div.about-img> a>img.one {
         width: 32.46px;
         height: 32.46px;
     }
-    div.about-img>div>a>img.two {
+    div.about-img> a>img.two {
         width: 43.66px;
         height: 43.66px;
     }
@@ -849,11 +946,11 @@ footer .col-8{
         width: 55.97px;
         height: 55.97px;
     }
-    div.about-img>div>a>img.four {
+    div.about-img> a>img.four {
         width: 43.66px;
         height: 43.66px;
     }
-    div.about-img>div>a>img.five {
+    div.about-img> a>img.five {
         width: 32.46px;
         height: 32.46px;
     }
@@ -870,7 +967,7 @@ footer .col-8{
     .svg2 {
         position: relative;
         left: 374px;
-        top: 895px;
+        top: 877px;
     }
 
     .quote.two {
@@ -900,3 +997,122 @@ footer .col-8{
     }
 }
 
+
+@media(max-width:575.5px){
+    .svg2 {
+        position: relative;
+        left: 409px;
+        top: 810px;
+    }
+
+    .quote.one{
+        left: 10px;
+    }
+
+    .quote.two {
+        left: 419px;
+    }
+
+
+    .quote {
+        position: relative;
+        top: 352px;
+        font-size: 154px;
+        font-family: Montserrat !important;
+        font-weight: 700;
+        color: #706FE5;
+        letter-spacing: -8px;
+    }
+}
+
+
+@media(max-width: 571px){
+    .quote.two {
+        left: 416px;
+    }
+
+}
+
+@media(max-width: 565.33px){
+    .quote.two {
+        left: 411px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 398px;
+        top: 798px;
+    }
+
+}
+
+
+@media (max-width: 550px){
+    .quote.two {
+        left: 396px;
+    }
+}
+
+@media (max-width: 537.5px){
+    .svg2 {
+        position: relative;
+        left: 372px;
+        top: 827px;
+    }
+    .quote.one {
+        left: 2px;
+    }
+    .quote.two {
+        left: 389px;
+    }
+
+
+}
+
+
+@media (max-width: 525.5px){
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 34.19%;
+    }
+
+    .quote.two {
+        left: 371px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 359px;
+        top: 860px;
+    } 
+} 
+
+@media (max-width: 516.43px){
+    .svg {
+        width: 59.94px;
+        height: 46.65px;
+    }
+    .quote.one {
+        left: -4px;
+    }
+    .svg2 {
+        position: relative;
+        left: 367px;
+        top: 837px;
+    }
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 36.19%;
+    }
+}
+
+@media (max-width: 506.33px){
+    .svg2 {
+        position: relative;
+        left: 355px;
+        top: 837px;
+    }
+    .quote.two {
+        left: 362px;
+    }
+}
