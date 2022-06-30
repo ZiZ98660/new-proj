@@ -17,6 +17,7 @@ function toggle(){
         let firstSect = document.querySelector('.first-sect')
         firstSect.setAttribute('id', 'respond')
     }
+
 }
 
 
