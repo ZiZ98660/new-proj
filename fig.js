@@ -4,6 +4,9 @@ let img2 = document.querySelector('div.about-img>a>img.two');
 let img4 = document.querySelector('div.about-img>a>img.four');
 let img5 = document.querySelector('div.about-img>a>img.five');
 let tglbtn= document.querySelector('.navbar-toggler');
+let list = document.querySelector('.navbar-nav')
+let div = document.querySelector('.navbar-collapse')
+
 img1.addEventListener('click', focusOne);
 img2.addEventListener('click', focusTwo);
 img3.addEventListener('click', focusThree);
@@ -11,13 +14,32 @@ img4.addEventListener('click', focusFour);
 img5.addEventListener('click', focusFive);
 tglbtn.addEventListener('click', toggle);
 
-
-function toggle(){
-    if( window.outerWidth < 883.7){
-        let firstSect = document.querySelector('.first-sect')
+window.addEventListener('resize', ()=>{
+    if(window.innerWidth >991.5){          
+        firstSect.removeAttribute('id', 'respond')
+    }else{
         firstSect.setAttribute('id', 'respond')
+        div.classList.add('class', 'show')
+    }
+})
+
+tglbtn.addEventListener('dblclick', ()=>{
+    firstSect.removeAttribute('id', 'respond')
+    div.classList.remove('class', 'show')
+
+    
+})
+
+let firstSect = document.querySelector('.first-sect')
+
+
+function toggle(){ 
+    if(window.innerWidth <= 991.5){          
+        firstSect.setAttribute('id', 'respond')
+        div.classList.add('class', 'show')
     }
 
+    
 }
 
 

@@ -16,7 +16,7 @@
 
 *{
     font-family: Poppins;
-     
+     /* outline: 1px #706FE5 solid; */
 }
 /* 
 footer{
@@ -32,6 +32,8 @@ a{
     position: absolute;
     left: 35%;
 }
+
+
 
 nav li{
     padding-right: 2rem !important;
@@ -57,9 +59,9 @@ nav li{
     width:51% !important;
 }
 
-/* div.first-sect{
-    overflow: hidden;
-} */
+div.first-sect{
+    transition-duration: 800ms;
+}
 
 div.first-sect>div>h2{
     /* position: absolute;
@@ -292,6 +294,10 @@ div.second-sect .right .bottom .two .img-two{
     color: #03014C;
 }
 
+.what{
+    margin-bottom: 3rem;
+}
+
 .inner-div>p.padd{
    
     font-style: normal;
@@ -376,6 +382,10 @@ div.about-img>a>img.five{
     border-radius: 50%;
     outline: 5px solid #706FE5;
     
+}
+
+#remove{
+    display: none !important;
 }
 
 
@@ -823,6 +833,31 @@ footer .col-8{
 
 
 @media (max-width: 991.5px){
+    .navbar-collapse>ul{
+        width:;
+        position: absolute;
+        left: 74%;
+        transition: height 950ms;
+        opacity: 0.7;
+        padding: 8px;
+        border: 1.5px solid #6361e0;
+        border-radius: 2px;
+        animation-duration: 800ms;
+        animation-name: opaque;
+    }
+
+    @keyframes opaque {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 0.7;
+        }
+      }
+
+
+
     .quote.one {
         left: 31px;
     }
@@ -853,6 +888,10 @@ footer .col-8{
 
 
 @media (max-width: 767.5px){
+    .contact-btn{
+        width: 33.33333333% !important;
+    }
+
     div.first-sect>div>p {
         font-family: 'Poppins';
         font-style: normal;
@@ -1074,6 +1113,10 @@ footer .col-8{
         width: 34.19%;
     }
 
+    .play-btn {
+        padding-right: 40px !important;
+    }
+
     .quote.two {
         left: 371px;
     }
@@ -1114,3 +1157,611 @@ footer .col-8{
         left: 362px;
     }
 }
+
+@media (max-width: 500.33px){
+    div.first-sect>div.text-first {
+        position: relative;
+        top: 50px;
+        
+    }
+
+    .subscribe {
+        width: 75%;
+        margin: auto;
+    }
+
+    .quote {
+        position: relative;
+        top: 338px;
+        font-size: 151px;
+        font-family: Montserrat !important;
+        font-weight: 700;
+        color: #706FE5;
+        letter-spacing: -8px;
+    }
+
+    .quote.two {
+        left: 357px;
+    }
+
+    .quote.one {
+        left: 2px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 350px;
+        top: 837px;
+    }
+
+    div.first-sect>div>p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        width: 100%;
+        color: #2E3E5C;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+@media(max-width: 494.5px){
+    .quote.two {
+        left: 346px;
+    }
+    
+
+}
+
+@media(max-width: 487px){
+    div.first-sect>div>p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        width: 100%;
+        color: #2E3E5C;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    .play-btn {
+        padding-right: 12px !important;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 336px;
+        top: 837px;
+    }
+
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 37.19%;
+    }
+}
+
+@media(max-width: 484px){
+    .quote.two {
+        left: 338px;
+    }
+}
+
+@media(max-width: 476.5px){
+    .quote.one {
+        left: -7px;
+    }
+
+    .quote.two {
+        left: 336px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 327px;
+        top: 830px;
+    }
+
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 39.19%;
+    }
+}
+
+@media(max-width:469.5px){
+    .quote.two {
+        left: 328px;
+    }
+
+}
+
+@media(max-width:460.33px){
+    .svg2 {
+        position: relative;
+        left: 311px;
+        top: 877px;
+    }
+
+    .quote.two {
+        left: 318px;
+    }
+
+    .subscribe button {
+        width: 137px;
+    }
+
+    .subscribe span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 24px;
+        color: #2E3E5C;
+        opacity: 0.7;
+    }
+
+    .subscribe {
+        width: 78%;
+        margin: auto;
+    }
+}
+
+
+@media(max-width:450.33px){
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 41.19%;
+    }
+
+    .svg {
+        width: 47.97px;
+        height: 37.32px;
+    }
+
+    .quote {
+        position: relative;
+        top: 338px;
+        font-size: 130px;
+        font-family: Montserrat !important;
+        font-weight: 700;
+        color: #706FE5;
+        letter-spacing: -8px;
+    }
+
+    .inner-div>p.padd {
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 50px !important;
+        text-align: center;
+        padding-bottom: 45px;
+        color: #03014C;
+        opacity: 0.5 !important;
+    }
+
+    .svg1 {
+        position: relative;
+        top: 250px;
+    }
+
+    .inner-div h3 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #03014C;
+    }
+
+    .what {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 324px;
+        top: 744px;
+    }
+
+    .quote {
+        position: relative;
+        top: 266px;
+        font-size: 130px;
+        font-family: Montserrat !important;
+        font-weight: 700;
+        color: #706FE5;
+        letter-spacing: -8px;
+    }
+
+    .quote.one {
+        left: 1px;
+    }
+
+    .quote.two {
+        left: 321px;
+    }
+
+    div.logo-flex>img.one {
+        width: 62.9px;
+    }
+    div.logo-flex>img.two {
+        width: 67.15px;
+    }
+    div.logo-flex>img.three {
+        width: 63.58px;
+    }
+    div.logo-flex>img.four {
+        width: 72.85px;
+    }
+    div.logo-flex>img.five {
+        width: 68.55px;
+    }
+    
+}
+
+
+@media (max-width: 450.33px){
+    .quote.two {
+        left: 308px;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 310px;
+        top: 744px;
+    }
+
+    .navbar-collapse>ul {
+        width: 30%;
+        position: absolute;
+        left: 33%;
+        transition: height 950ms;
+        opacity: 0.7;
+        padding: 8px;
+        border-radius: 2px;
+        animation-duration: 800ms;
+        animation-name: opaque;
+        border: none;
+    }
+
+    .first-sect h2, .second-title, .first h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 430.33px){
+    .svg2 {
+        position: relative;
+        left: 303px;
+        top: 744px;
+    }
+
+    .quote.two {
+        left: 302px;
+    }
+
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 44.19%;
+    }
+    
+
+}
+
+
+@media (max-width: 424.33px){
+    .quote.one {
+        left: -8px;
+    }
+
+    .subscribe {
+        width: 80%;
+        margin: auto;
+    }
+
+    .subscribe button {
+        width: 135px;
+    }
+
+    .quote.two {
+        left: 292px;
+    }
+
+
+
+}
+
+@media (max-width: 414.33px){
+    .contact-btn {
+        width: 35.333333% !important;
+    }
+
+}
+
+
+@media (max-width: 408.33px){
+    .play-btn {
+        padding-right: 0px !important;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 281px;
+        top: 793px;
+    }
+
+    .quote.two {
+        left: 285px;
+    }
+
+}
+
+
+@media (max-width: 400.33px){
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 46.19%;
+    }
+
+    .subscribe button {
+        background: #706FE5;
+        box-shadow: 0px 6px 20px rgb(112 111 229 / 50%);
+        border-radius: 12px;
+        width: 172px;
+        height: 46px;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .subscribe button {
+        width: 124px;
+    }
+
+    .subscribe {
+        width: 82%;
+        margin: auto;
+    }
+    .quote.two {
+        left: 275px;
+    }
+
+    .quote.one {
+        left: -3px;
+    }
+    
+}
+
+
+
+@media (max-width: 391.33px){
+    footer .col-2 {
+        flex: 0 0 auto;
+        width: 48.19%;
+    }
+
+    .svg2 {
+        position: relative;
+        left: 262px;
+        top: 793px;
+    }
+
+    .quote.two {
+        left: 263px;
+    }
+
+    div.first-sect>div>h2>span>img {
+        width: 303px !important;
+    }
+
+    div.first-sect>div>h2 {
+        font-style: normal;
+        font-weight: 700 !important;
+        font-size: 59px !important;
+        line-height: 104px !important;
+        letter-spacing: 0.2px !important;
+    }
+
+    .contact-btn {
+        width: 38.333333% !important;
+    }
+
+    .
+
+}
+
+
+@media (max-width: 385px){
+    .subscribe button {
+        background: #706FE5;
+        box-shadow: 0px 6px 20px rgb(112 111 229 / 50%);
+        border-radius: 12px;
+        width: 172px;
+        height: 42px;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .subscribe span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 24px;
+        color: #2E3E5C;
+        opacity: 0.7;
+    }
+
+    .play {
+        width: 44px !important;
+        height: 44px !important;
+        border-radius: 50%;
+    }
+
+}
+
+
+@media (max-width: 414.33px){
+
+
+}
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+@media (max-width: 414.33px){
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+    .svg2 {
+        position: relative;
+        left: 1094px;
+        top: 756px;
+    }
+
+    .quote.two {
+        left: 1080px;
+    }
+}
+
+
